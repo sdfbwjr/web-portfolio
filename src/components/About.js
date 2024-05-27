@@ -35,11 +35,10 @@ export const About = () => {
                 <div className="col-12">
                     <div className="about-bx wow zoomIn">
                         <h2>about</h2>
-                        <p>As a recent graduate with a Bachelor's degree in Computer Science, I have acquired a solid foundation in software
-development methodologies, programming languages, and web development frameworks, which perfectly aligns
-with the technical requirements of the role. My participation in the Front-End Software Engineering Virtual
-Experience Programme through Skyscanner further honed my skills in front-end development, providing me with
-practical insights into building scalable and user-friendly applications.</p>
+                        <p>During my academic journey, I have honed my technical skills across a diverse range of programming languages and frameworks, including React.js, Node.js, and proficiency in C++, C#, Java, and JavaScript. My coursework has equipped me with a solid understanding of advanced data structures and algorithms, while practical projects have allowed me to apply this knowledge effectively.
+                          Furthermore, my experience as a Recruiter & HR Specialist at 22ai has provided me with valuable insights into fostering effective communication, driving recruitment efforts, and enhancing employer branding. Leveraging the power of AI, I have contributed to efficient candidate evaluation processes and played a key role in developing and representing our employer brand across various platforms.
+                          Additionally, my tenure as a Sales Consultant at Bell MTS allowed me to develop strong problem-solving skills and a customer-centric approach. By understanding and addressing the unique needs of each client, I consistently exceeded sales targets while prioritizing customer satisfaction, a testament to my ability to balance technical expertise with a focus on delivering exceptional experiences.
+</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme about-slider">
                             <div className="item">
                                 <img src={meter1} alt="Image" />
@@ -47,15 +46,27 @@ practical insights into building scalable and user-friendly applications.</p>
                             </div>
                             <div className="item">
                                 <img src={meter2} alt="Image" />
-                                <h5>Brand Identity</h5>
+                                <h5>communication</h5>
                             </div>
                             <div className="item">
                                 <img src={meter3} alt="Image" />
-                                <h5>Logo Design</h5>
+                                <h5>problem-solving skills</h5>
                             </div>
                             <div className="item">
                                 <img src={meter1} alt="Image" />
-                                <h5>Web Development</h5>
+                                <h5>SQL</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter1} alt="Image" />
+                                <h5>Data Structures</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter1} alt="Image" />
+                                <h5>Algorithms</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter1} alt="Image" />
+                                <h5>Adaptability</h5>
                             </div>
                         </Carousel>
                     </div>
